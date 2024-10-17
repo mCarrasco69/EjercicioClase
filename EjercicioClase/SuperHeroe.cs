@@ -9,27 +9,14 @@ namespace EjercicioClase
         public string Ciudad { get; set; }
         public Boolean PuedeVolar { get; set; }
         public string SuperPoder { get; set; }
-
-
-      
+     
         public void Imprimir(){
 
             Console.WriteLine($"Nombre:{ Nombre} ");
             Console.WriteLine($"IdentidadSecreta:{IdentidadSecreta} ");
             Console.WriteLine($"Ciudad:{Ciudad} ");
             Console.WriteLine($"PuedeVolar:{PuedeVolar} ");
-            Console.WriteLine($"SuperPoder:{SuperPoder} ");
-           
-
-
-        }
-        
-
-
-
-
-
-
-
+           Console.WriteLine($"SuperPoder:{SuperPoder} ");             
+        }       
     }
 }
